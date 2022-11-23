@@ -1,4 +1,4 @@
-name: CI
+name: PRODYX_RDP
 
 on: workflow_dispatch
 
@@ -7,8 +7,6 @@ jobs:
   build:
 
     runs-on: windows-latest
-
-    timeout-minutes: 9999
 
     steps:
 
@@ -54,6 +52,34 @@ jobs:
 
       run: cmd /c NGROK-CHECK.bat
 
-    - name: All Done! You can close Tab now! Maximum VM time:6h.
+    - name: All Done! You can close Tab now! Maximum VM time:unlimited.
+
+      run: cmd /c loop.bat
+      
+      run: cmd /c loop.bat
+      
+      run: cmd /c loop.bat
+
+      run: cmd /c loop.bat
+
+      run: cmd /c loop.bat    
+      
+      run: cmd /c loop.bat
+
+      run: cmd /c loop.bat
+
+      run: cmd /c loop.bat
+
+      run: cmd /c loop.bat
+
+      run: cmd /c loop.bat
+      
+      run: cmd /c loop.bat      
+
+      run: cmd /c loop.bat      
+
+      run: cmd /c loop.bat
+
+      run: cmd /c loop.bat
 
       run: cmd /c loop.bat
